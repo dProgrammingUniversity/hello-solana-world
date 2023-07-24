@@ -5,7 +5,7 @@ contract hello_solana_world {
 
     @payer(payer)
     constructor(address payer) {
-        print("Hello, World!");
+        print("Hello, Solana World!");
     }
 
     /// A message that can be called on instantiated contracts.
